@@ -14,5 +14,12 @@
             "email": "ranjithkumar.murugesan@intergy.com.au"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Ical\\ActivityLog\\": "src/"
+        }
+    }
 }
