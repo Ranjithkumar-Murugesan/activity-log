@@ -3,6 +3,7 @@
     "description": "All database activities will be stored in a table through this process",
     "type": "library",
     "license": "MIT",
+	"version": "1.0.0"
     "autoload": {
         "psr-4": {
             "Ical\\ActivityLog\\": "src/"
@@ -10,7 +11,7 @@
     },
     "authors": [
         {
-            "name": "Ranjithkumar",
+            "name": "Ranjithkumar M",
             "email": "ranjithkumar.murugesan@intergy.com.au"
         }
     ],
