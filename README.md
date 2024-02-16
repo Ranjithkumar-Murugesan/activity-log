@@ -19,7 +19,7 @@ This README will guide you through the features of this package and how to effec
 
 ## Installation
 
-Add Repository to `composer.json`**: First, add the repository to your Laravel project's `composer.json` file.
+Add the repository to your Laravel project's `composer.json` file.
 
    
     "repositories": [
