@@ -14,7 +14,7 @@
             "email": "ranjithkumar.murugesan@intergy.com.au"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-main",
     "prefer-stable": true,
     "require": {},
     "autoload-dev": {
