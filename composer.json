@@ -1,0 +1,18 @@
+{
+    "name": "ical/activity-log",
+    "description": "All database activities will be stored in a table through this process",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ical\\ActivityLog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ranjithkumar",
+            "email": "ranjithkumar.murugesan@intergy.com.au"
+        }
+    ],
+    "minimum-stability": "dev"
+}
