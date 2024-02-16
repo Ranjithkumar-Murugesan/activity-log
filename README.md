@@ -21,34 +21,34 @@ This README will guide you through the features of this package and how to effec
 
 Add Repository to `composer.json`**: First, add the repository to your Laravel project's `composer.json` file.
 
-    ```json
+   
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/Ranjithkumar-Murugesan/activity-log"
         }
     ]
-	```
+	
 
 You can install the package via Composer:
-	```bash
+	
 	
     composer require ical/activity-log dev-main
 	
-    ```
+    
 
 ## Running Migrations
 Before using the ActivityLogger trait, make sure to run the migration command to create the necessary table in your database
-    ```bash
+   
 	
 	php artisan migrate	
 	
-	```
+	
 		
 ## Usage
 Apply the Trait to Your Models: Use the ActivityLogger trait in your Laravel model classes where you want to enable activity logging.
 
-	```php
+	
 	use Illuminate\Database\Eloquent\Model;
 	use Ical\ActivityLog\Traits\ActivityLogger;
 
@@ -58,24 +58,21 @@ Apply the Trait to Your Models: Use the ActivityLogger trait in your Laravel mod
 
 		// Your model code...
 	}
-	```
+	
 		
 Set Parent Model (Optional): If your model is associated with another parent model, you can set the parent model instance using the setParentModel method.
 	
-	```php
+	
 	
 	$yourModel->setParentModel($parentModel);
 	
-	```
+	
 	
 Recordable Events (Optional): By default, the trait logs created, updated, and deleted events. You can customize this behavior by defining the $recordableEvents property in your model.
 	    
-	```php 
 	
 	protected static $recordableEvents = ['created', 'updated', 'deleted'];
 	
-	```
-		
 
 ## Table Columns
 
