@@ -41,7 +41,7 @@ You can install the package via Composer:
 Before using the ActivityLogger trait, make sure to run the migration command to create the necessary table in your database
    
 	
-	php artisan migrate	
+	php artisan migrate --path=vendor/ical/activity-log/src/database/migrations
 	
 	
 		
